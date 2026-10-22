@@ -1,0 +1,7 @@
+FICTIONAL PURCHASE ORDER TW-001
+Supplier: Cedar Workshop (fictional)
+Customer: Northline Retail (fictional)
+Contract value: INR 200000
+Final: INR 200000 on 2027-01-15
+Payment is due on the stated calendar date. No advance is included.
+This document is fictional and for software demonstration only.

@@ -1,0 +1,19 @@
+{
+  "contract_text": "FICTIONAL PURCHASE ORDER TW-001\nSupplier: Cedar Workshop (fictional)\nCustomer: Northline Retail (fictional)\nContract value: INR 200000\nFinal: INR 200000 on 2027-01-15\nPayment is due on the stated calendar date. No advance is included.\nThis fictional document is for software demonstration only.",
+  "deal": {
+    "name": "Northline retail order",
+    "currency": "INR",
+    "opening_cash": "80000.00",
+    "opening_date": "2026-11-01",
+    "contract_value": "200000.00",
+    "reserve": "20000.00",
+    "confirmed": false,
+    "notes": "Fictional example. INR 120,000 delivery expenses occur before expected customer payment. A separate INR 50,000 operating outflow on January 20 shows why payment delay matters. Proposed advances must arrive before the November 5 materials purchase.",
+    "events": [
+      {"id":"final-1","label":"Customer final payment","date":"2027-01-15","amount":"200000.00","kind":"final","source":{"document":"Fictional purchase order TW-001","page":null,"quote":"Final: INR 200000 on 2027-01-15","status":"extracted_unconfirmed"}},
+      {"id":"materials","label":"Materials purchase","date":"2026-11-05","amount":"70000.00","kind":"expense"},
+      {"id":"delivery","label":"Production & delivery","date":"2026-11-20","amount":"50000.00","kind":"expense"},
+      {"id":"operations","label":"Other operating commitment","date":"2027-01-20","amount":"50000.00","kind":"other_outflow"}
+    ]
+  }
+}

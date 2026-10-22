@@ -1,0 +1,18 @@
+{
+  "method": "axe-core WCAG 2 A/AA and 2.1 AA tags; automated checks only, not full accessibility certification",
+  "source": "frontend/tests/workflow.spec.ts audit helper, final passing run",
+  "profiles": [
+    "desktop",
+    "mobile"
+  ],
+  "views_checked_per_profile": [
+    "overview",
+    "extracted-terms setup",
+    "timeline",
+    "stress tests",
+    "counteroffer results",
+    "decision report"
+  ],
+  "violations": 0,
+  "standalone_walkthrough_browser_errors": []
+}

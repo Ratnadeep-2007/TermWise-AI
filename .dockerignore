@@ -1,0 +1,13 @@
+.git
+**/node_modules
+**/dist
+**/__pycache__
+.venv
+.env
+.env.*
+**/test-results
+.agents
+.claude
+.codex
+agent
+devpost/learner-profile.md
